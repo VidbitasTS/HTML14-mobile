@@ -44,7 +44,19 @@ html {
         text-align: left;
         column-gap: 2rem;
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 30% auto;
+    }
+    .u-card--rtl {
+        text-align: right;
+        grid-template-columns: auto 30%;
+    }
+    .u-card--rtl .u-card__img {
+        grid-column: 2 / span 1;
+        /* direction: rtl; */
+        /* text-align: right; */
+    }
+    .u-card--rtl .u-card__title {
+        grid-row: 1;
     }
     .u-card__img {
         width: 100%;
