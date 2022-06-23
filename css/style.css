@@ -1,0 +1,32 @@
+/* Comon css */
+
+html {
+    font-style: 16px;
+    margin-bottom: 500px;
+}
+
+
+/*  User cards */
+
+.u-card {
+    text-align: center;
+    color: #999999;
+    border-bottom: 1px solid tomato;
+    border-bottom-color: inherit;
+    padding: 2rem 0;
+}
+
+.u-card__img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 8px;
+    border: 1px solid #c1c1c1;
+    margin-bottom: 1.5rem;
+}
+
+.u-card__title {
+    font-weight: normal;
+    font-style: 1.4rem;
+}
