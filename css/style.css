@@ -1,8 +1,12 @@
 /* Comon css */
 
 html {
-    font-style: 16px;
-    margin-bottom: 500px;
+    /* font-style: 16px; */
+    /* margin-bottom: 500px; */
+}
+
+p {
+    font-size: 16px;
 }
 
 
@@ -36,15 +40,53 @@ html {
     font-style: 1.4rem;
 }
 
+
+/* Download */
+
+.download .down-card {
+    /* grid-template-columns: 1fr; */
+}
+
+.down-btn {
+    display: flex;
+    /* grid-template-columns: 1fr; */
+    flex-direction: column;
+    grid-gap: 15px;
+    width: 100vh;
+    /* margin-right: 0; */
+    /* width: 100%; */
+    /* align-items: center; */
+}
+
+.down-btn button {
+    /* padding: 20px;
+    width: 350px; */
+    margin: 0 auto;
+}
+
+.down-btn button:nth-child(1) {
+    background-color: blue;
+    color: white;
+    /* flex-basis: 30%; */
+}
+
+.down-btn button:nth-child(2) {
+    background-color: transparent;
+    color: #828282;
+}
+
+
+/* Media */
+
 @media screen and (min-width: 650px) {
     .user-section {
         padding: 0 6%;
     }
     .u-card {
-        text-align: left;
         column-gap: 2rem;
         display: grid;
         grid-template-columns: 30% auto;
+        text-align: left;
     }
     .u-card--rtl {
         text-align: right;
@@ -66,5 +108,8 @@ html {
     }
     .u-card__title {
         align-self: flex-end;
+    }
+    .download .down-btn {
+        /* width: 200px; */
     }
 }
