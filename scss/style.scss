@@ -1,0 +1,22 @@
+@import 'vars';
+@import 'fonts';
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+.container {}
+
+.header {
+    background-color: $accent;
+}
